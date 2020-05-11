@@ -1,4 +1,63 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+}
+
+h1 {
+  text-align:center;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 700;
+  font-family: century gothic, sofia pro;
+}
+
+div {
+  margin: 2%;
+}
+
+
+.preview h1 {
+  font-family: serif, sans-serif;
+  font-size: 1.7em;
+  display:inline-block;
+  padding-left: 100px;
+  text-transform: capitalize;
+}
+
+
+.preview {
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  height: 450px;
+  width: 90%;
+  padding: 45px 300px 0 0;
+
+}
+.baku {
+  background-image: url("/images/baku.jpg");
+}
+
+.london {
+  background-image: url("/images/london.png");
+
+}
+
+.madrid {
+  background-image: url("/images/madrid.jpg");
+
+}
+
+.rome {
+  background-image: url("/images/rome.jpg");
+
 }
