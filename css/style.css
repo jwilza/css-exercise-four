@@ -34,6 +34,7 @@ h1 {
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
+  display:inline-block;
   height: 700px;
   width: 90%;
   padding: 45px 300px 0 0;
