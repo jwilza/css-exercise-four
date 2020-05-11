@@ -58,3 +58,11 @@ h1 {
   background-image: url("/images/rome.jpg");
 
 }
+
+/*resolution for tablets */
+@media screen and (min-width: 575px){
+   .preview {
+    margin: 1%;
+    width: 40%;
+  }
+}
